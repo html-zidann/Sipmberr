@@ -12,9 +12,9 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 
 Program SIP MBER memiliki dua fitur utama, yaitu Program Bantuan (1) dan Pelatihan Pemberdayaan (2). 
 
-**Program Bantuan** : Masyarakat berpenghasilan rendah dapat mengakses berbagai jenis program bantuan yang telah disediakan oleh pemerintah atau lembaga mitra. Pengguna dapat melihat daftar program, membaca deskripsi dan syaratnya, serta melakukan pendaftaran secara langsung melalui sistem.
+**Program Bantuan** : Masyarakat berpenghasilan rendah dapat mengakses berbagai jenis program bantuan yang telah disediakan oleh pemerintah atau lembaga mitra. Pengguna dapat melihat daftar program, membaca deskripsi, serta melakukan pendaftaran secara langsung melalui sistem.
 
-**Pelatihan Pemberdayaan** : Fitur ini menyediakan berbagai pelatihan keterampilan yang dapat diikuti sesuai dengan kebutuhan dan minat pengguna. Peserta dapat memilih kategori pelatihan, melihat detail jadwal dan progres pelatihan, serta mengikuti evaluasi hasil belajar.
+**Pelatihan Pemberdayaan** : Fitur ini menyediakan berbagai pelatihan keterampilan yang dapat diikuti sesuai dengan kebutuhan dan minat pengguna. Peserta dapat memilih pelatihan yang ingin diikuti, melihat detail jadwal dan progres pelatihan.
 
 Selain itu, pengguna yang telah terdaftar dapat melakukan proses CRUD (Create, Read, Update, Delete) terhadap data mereka, seperti memperbarui informasi akun atau mendaftar ke suatu program.
 
