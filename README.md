@@ -278,7 +278,7 @@ Ketika Admin ingin melakukan pembaruan data pelatihan, Admin perlu menekan salah
 
 ### Menghapus Pelatihan
 
-Ketika Admin ingin menghapus suatu data di pelatihan, Admin hanya perlu menekan salah satu data di tabel pelatihan, kemudian admin menekan tombol hapus yang ada di kanan atas tabel.
+Ketika Admin ingin menghapus suatu data di pelatihan, Admin hanya perlu menekan salah satu data di tabel pelatihan, kemudian admin menekan tombol "hapus" yang ada di kanan atas tabel.
 
 ![WhatsApp Image 2025-11-02 at 23 18 01_dd020435](https://github.com/user-attachments/assets/0ad4a26f-c408-42ba-8c1d-705ac0487ada)
 
@@ -289,3 +289,61 @@ Contoh Gambar
 Di halaman menu daftar staff, admin dapat melihat daftar-daftar staff. Admin juga dapat menambahkan, memperbarui, dan menghapus suatu data staff.
 
 ### Menambahkan Staff
+
+Untuk Fitur penambahan staff oleh admin, admin perlu memasukkan ID staff, Nama Staff, Nomor Hp Staff, Password Staff, Email Staff dan Jenis Staff. Kemudian, admin hanya perlu menekan tombol "tambah", otomatis data staff yang tadi diinput sudah masuk ke dalam data staff.
+
+![WhatsApp Image 2025-11-02 at 23 24 17_78742deb](https://github.com/user-attachments/assets/87ba0ed2-4877-45ba-af13-28250593e058)
+
+### Memperbarui Data Staff
+
+Untuk Fitur memperbarui data staff oleh admin, admin hanya perlu menekan salah satu data staff yang ada di dalam tabel, maka otomatis data yang tadi ditekan akan muncul diatas tabel, admin hanya perlu mengubah data yang ingin diubah. Misalnya, ID staff, Nama Staff, Nomor Hp Staff, Password Staff, Email Staff ataupun Jenis Staff. Kemudian, admin hanya perlu menekan tombol "perbarui" maka otomatis data staff yang tadi diubah sudah diperbarui ke dalam data staff.
+
+![WhatsApp Image 2025-11-02 at 23 22 03_93bae401](https://github.com/user-attachments/assets/63a287cc-f5aa-4692-a054-a421e109a5aa)
+
+### Menghapus Data Staff
+
+Ketika Admin ingin menghapus data staff, admin hanya perlu menekan salah satu data staff yang ada di dalam tabel, maka otomatis data yang tadi ditekan akan muncul diatas tabel. Kemudian, admin hanya perlu menekan tombol "hapus", maka otomatis data staff tersebut akan terhapus di dalam data
+
+![WhatsApp Image 2025-11-02 at 23 20 39_b77c89f6](https://github.com/user-attachments/assets/aca17e6a-1315-4375-816d-c4cfff885365)
+
+### Menu Daftar Peserta
+
+Contoh Gambar
+
+Di halaman menu daftar peserta, admin dapat melihat daftar-daftar peserta. Admin juga dapat menambahkan, memperbarui, dan menghapus suatu data peserta.
+
+### Menambahkan Peserta
+
+Ketika Admin ingin menambahkan peserta, Admin perlu menginput NIK, Nama, Alamat, Pekerjaan, Penghasilan, Tanggal Daftar, Email, Nomor HP dan Password. Kemudian, admin hanya perlu menekan tombol "Tambah". Maka, otomatis data yang tadi diinput sudah dimasukkan ke dalam data peserta.
+
+![WhatsApp Image 2025-11-02 at 23 30 28_d8f04539](https://github.com/user-attachments/assets/781f4439-6f08-4a6c-99a2-4d1aa0be3c0b)
+
+### Memperbarui Peserta
+
+Untuk Fitur memperbarui data peserta oleh admin, admin hanya perlu menekan salah satu data peserta yang ada di dalam tabel, maka otomatis data yang tadi ditekan akan muncul diatas tabel, admin hanya perlu mengubah data yang ingin diubah. Misalnya, NIK, Nama, Alamat, Pekerjaan, Penghasilan, Tanggal Daftar, Email, Nomor HP, ataupun Password. Kemudian, admin hanya perlu menekan tombol "perbarui" maka otomatis data peserta yang tadi diubah sudah diperbarui ke dalam data peserta.
+
+![WhatsApp Image 2025-11-02 at 23 25 27_1384913f](https://github.com/user-attachments/assets/b1a961b1-ffd6-4398-a6bd-a403199cc7ba)
+
+### Menghapus Peserta
+
+Ketika Admin ingin menghapus data peserta, admin hanya perlu menekan salah satu data peserta yang ada di dalam tabel, maka otomatis data yang tadi ditekan akan muncul diatas tabel. Kemudian, admin hanya perlu menekan tombol "hapus", maka otomatis data peserta tersebut akan terhapus di dalam data
+
+![WhatsApp Image 2025-11-02 at 23 26 04_d7fbf299](https://github.com/user-attachments/assets/3c11e037-1cdc-4544-aaac-ee8041775581)
+
+### Daftar Pendaftar
+
+Untuk menu daftar pendaftar, admin dapat melakukan verifikasi kepada pendaftar yang statusnya masih menunggu.
+
+Contoh Gambar
+
+### Menerima/Menolak Verifikasi Pendaftar
+
+Ketika admin ingin menerima ataupun menolak verifikasi pendaftar, Admin cukup menekan salah satu data pendaftar yang ada di dalam tabel. Kemudian, admin hanya perlu menekan tombol "Diterima" atapun "Ditolak". Maka, otomatis pendaftar tersebut dapat melakukan login ketika admin menerima pendaftar tersebut.
+
+Ketika Diterima
+
+![WhatsApp Image 2025-11-02 at 23 31 21_3a911d51](https://github.com/user-attachments/assets/2e9a2b7d-8eff-4249-a1f4-fe53ff83b5a4)
+
+Ketika Ditolak
+
+![WhatsApp Image 2025-11-02 at 23 32 09_e048646b](https://github.com/user-attachments/assets/00a0d988-541c-4ad4-b66e-6e55c02fa9cd)
