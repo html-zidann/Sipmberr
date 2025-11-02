@@ -47,13 +47,26 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 
 ## Fitur SIP MBER
 
-Program SIP MBER memiliki dua fitur utama, yaitu Program Bantuan (1) dan Pelatihan Pemberdayaan (2). 
+- **Sistem Login**: ebagai titik navigasi ke fungsi-utama, Memfasilitasi pemilihan jalur sesuai peran (Admin/Staff?PendFaftar).
 
-**Program Bantuan** : Masyarakat berpenghasilan rendah dapat mengakses berbagai jenis program bantuan yang telah disediakan oleh pemerintah atau lembaga mitra. Pengguna dapat melihat daftar program, membaca deskripsi, serta melakukan pendaftaran secara langsung melalui sistem.
+-  **Registrasi**: Digunakan untuk membuat akun baru sebagai Pendaftar. Data pendaftar dikumpulkan untuk berifikasi, lalu diarahkan ke Menu User setelah aktif.
 
-**Pelatihan Pemberdayaan** : Fitur ini menyediakan berbagai pelatihan keterampilan yang dapat diikuti sesuai dengan kebutuhan dan minat pengguna. Peserta dapat memilih pelatihan yang ingin diikuti, melihat detail jadwal dan progres pelatihan.
+-  **Tampilam pendaftar (yang belum disetujui status verifikasinya)**: Hanya menampilkan akun ada belum diverifikasi, silahkan login kembali setelah akun sudah disetujui verifikasinya, dan tombol untuk keluar.
 
-Selain itu, pengguna yang telah terdaftar dapat melakukan proses CRUD (Create, Read, Update, Delete) terhadap data mereka, seperti memperbarui informasi akun atau mendaftar ke suatu program.
+- **Menu Utama Peserta**: Halaman utama bagi pendaftar yang status verifikasinya telah lidsetujui. peserta dapat melihat dan mengikuti program-program pelatihan yang diminati. peserta juga dapat melihat sertifikatnya apabila status program pelatihan yang diikuti peserta sudah seleai. Dan peserta dapat memperbarui akun.
+
+- **Menu Utama Staff**: Halaman utama untuk staff dapat melihat daftar-daftar peserta dan pelatihan.
+
+- **Menu Utama Admin**: Halaman utama untuk admin yang bertugas untuk mengelola, mengontrol, dan memperhatikan data-data dari pelatihan, Staff, pendaftar dan peserta.
+
+- **Menu Daftar Pelatihan admin**: halaman dimana admin dapat menambahkan, memperbarui, dan menghapus data dari pelatihan.
+
+- **Menu Daftar Peserta Admin**: halaman dimana admin dapat menambahkan, memperbarui, dan menghapus data dari peserta.
+
+- **Menu Daftar Staff Admin**: halaman dimana admin dapat menambahkan, memperbarui, dan menghapus data dari staff.
+
+- **Menu Daftar Pendaftar Admin**: halaman dimana admin menyetujui ataupun menolak status verifikasi dari pendaftar.
+
 
 ## The 5 Pillars of Object Oriented Programming
 
@@ -61,6 +74,28 @@ Selain itu, pengguna yang telah terdaftar dapat melakukan proses CRUD (Create, R
 
 ### Encapsulation (Enkapsulasi)
 
-Pilar pertama, **Encapsulation** atau biasa disebut **Enkapsulasi**, berarti membungkus data dan fungsi dalam suatu kesatuan class untuk menjaga keamanan dan mengontrol akses. Atribut juga dibuat private dengan Getter & Setter untuk mengontrol akses data.
-Penerapan tersebut banyak di sebagian besar view.
+Pilar pertama, **Encapsulation** atau biasa disebut **Enkapsulasi**, berarti membungkus data dan fungsi dalam suatu kesatuan class untuk menjaga keamanan dan mengontrol akses. Atribut juga dibuat private dengan Getter & Setter untuk mengontrol akses data. Contoh:
+
+<img width="841" height="286" alt="image" src="https://github.com/user-attachments/assets/5d1e55fd-b77f-424f-ae82-f313c1d33db9" />
+
+<img width="917" height="575" alt="image" src="https://github.com/user-attachments/assets/6ffd9824-d94e-49a7-a40b-8047c8f80cbf" />
+
+Pada class Pendaftar, encapsulation diterapkan dengan menjadikan atribut NIK, nama_lengkap, email dll bersifat private kemudian diakses melalui method getter dan setter. Hal ini menjaga keamanan data pendaftar serta membuat struktur kode lebih teratur dan mudah dikelola.
+
+### Inheritanse
+
+Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child) mewarisi property dan method dari class lain (parent). Inheritance membantu mengurangi penulisan kode secara berulang (mengurangi redundancy kode). Sebuah kelas (superclass) dapat mewariskan property dan method kepada kelas-kelas turunannya (subclass). Artinya, subclass dapat menggunakan kembali property dan method dari superclass, serta dapat menambahkan property dan method baru atau mengubah perilaku yang sudah ada. Contoh:
+
+<img width="928" height="203" alt="image" src="https://github.com/user-attachments/assets/0a76ff86-9f90-4e43-8428-9911a4adb3b5" />
+
+Class StaffPelatihan mewarisi class Staff. Selain itu, class ini memiliki atribut tambahan cuaca yaitu kelolaPelatihan
+
+<img width="408" height="161" alt="image" src="https://github.com/user-attachments/assets/a65e2707-f8d0-4413-b2ad-3705b8365b0b" />
+
+Sama seperti class staffPelatihan, class Peserta juga mewarisi atribut umum dari pendaftar, dan menambahkan atribut untuk peserta yaitu GetIdPeserta, GetProgress dan lain-lain.
+
+### Abstraction
+
+Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas tanpa harus menampilkan detail dari karakteristik tersebut. Dalam abstraction menggunakan abstract class yang merukan kelas abtrak digunakan untuk menentukan karakteristik dari sebuah kelas. Abstract class tidak bisa dibuat menjadi obek secara langsung harus diwariskan. contoh:
+
 
