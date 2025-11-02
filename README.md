@@ -110,4 +110,42 @@ Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku
 
 - contoh gambar
 
-### 
+### Interface
+
+Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua method yang ada di dalamnya. contoh:
+
+- Contoh Gambar
+
+- contoh ganbar
+
+## Penjelasan Struktur Package
+
+<img width="280" height="496" alt="image" src="https://github.com/user-attachments/assets/286b687f-77ef-4783-bb22-0b66198565fe" />
+
+### 1. Source Packages
+
+Bagian ini berisi seluruh kode utama program. Di dalamnya terdapat beberapa package yang memiliki fungsi berbeda namun saling berkaitan.
+
+- GUI Package ini berisi komponen tampilan antarmuka yang digunakan oleh pengguna. Seluruh halaman seperti menu utama, form login, registrasi, menu admin, dan menu user terdapat di dalam bagian ini.
+
+- META-INF Package ini berisi file xml, yang akan membantu agar HibernateUtil dapat berjalan.
+
+- Model Package ini menyimpan class-class yang mengimplementasikan private-public, dan Setter & Getter. Seperti Admin, Staff, Staff Pelatihan, Pelatihan, Sertifikat, Peserta, dan Pendaftar.
+
+- Service Package ini menyimpan class-class yang merepresentasikan data atau entitas yang ada di dalam database, seperti pelatihanService, pesertaService dan lain-lain.
+
+- Util Package ini berfungsi sebagai penyedia class pendukung atau helper yang membantu proses kerja aplikasi, misalnya pengaturan format, validasi input, atau fungsi tambahan lain yang digunakan di berbagai bagian program.
+
+### 2. Libraries
+
+<img width="372" height="164" alt="image" src="https://github.com/user-attachments/assets/6ec02779-9c15-47bd-9d88-f463039c3597" />
+
+Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dapat berjalan dengan baik, di antaranya:
+
+- hibernate-core yang digunakan untuk menghubungkan objek Java dengan database melalui konsep ORM.
+
+- mysql-connector-j untuk menghubungkan aplikasi dengan database MySQL.
+
+- AbsoluteLayout untuk membantu pengaturan tata letak tampilan antarmuka / GUI.
+
+## 
