@@ -9,16 +9,16 @@
 - Ahmad Qomarul Arifin 2409116114
 
 
-## Pengenalan SIP MBER
+# Pengenalan SIP MBER
 _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalui teknologi digital dengan tujuan utama meningkatkan kesejahteraan masyarakat berpenghasilan rendah. SIP MBER berfokus pada akses yang mudah terhadap program bantuan, pelatihan keterampilan, dan peluang ekonomi yang inklusif.
 
-## Deskripsi SIP MBER
+# Deskripsi SIP MBER
 
 **SIP MBER** adalah singkatan dari Sistem Informasi Pemberdayaan Masyarakat Berpenghasilan Rendah. SIP MBER sendiri adalah platform digital berbasis edukasi dan komunitas yang berfokus pada pemberdayaan masyarakat berpenghasilan rendah sebagai bagian dari upaya mendukung *Sustainable Development Goals (SDG) nomor 16: No Poverty dan nomor 8: Empowerment of low-income communities.* Tujuan utama dari SIP MBER (Sistem Informasi Pemberdayaan Masyarakat Berpenghasilan Rendah) adalah mendorong pemberdayaan masyarakat berpenghasilan rendah melalui akses yang setara terhadap pendidikan, pelatihan keterampilan, serta peluang ekonomi yang inklusif.
 
-## FLOWCHART dan Use Case Diagram
+# FLOWCHART dan Use Case Diagram
 
-### Flowchart
+## Flowchart
 
 1. Flowchart Login
 
@@ -45,7 +45,7 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 ![WhatsApp Image 2025-10-30 at 19 14 05_68fb7dea](https://github.com/user-attachments/assets/ae30b85e-377d-4d5c-9530-07912bb1efbc)
 
 
-## Fitur SIP MBER
+# Fitur SIP MBER
 
 - **Sistem Login**: ebagai titik navigasi ke fungsi-utama, Memfasilitasi pemilihan jalur sesuai peran (Admin/Staff?PendFaftar).
 
@@ -68,7 +68,7 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 - **Menu Daftar Pendaftar Admin**: halaman dimana admin menyetujui ataupun menolak status verifikasi dari pendaftar.
 
 
-## The 5 Pillars of Object Oriented Programming
+# The 5 Pillars of Object Oriented Programming
 
 **Lima pilar utama dalam Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP)** adalah fondasi yang membentuk cara berpikir dan perancangan sistem berbasis objek.
 
@@ -82,7 +82,7 @@ Pilar pertama, **Encapsulation** atau biasa disebut **Enkapsulasi**, berarti mem
 
 Pada class Pendaftar, encapsulation diterapkan dengan menjadikan atribut NIK, nama_lengkap, email dll bersifat private kemudian diakses melalui method getter dan setter. Hal ini menjaga keamanan data pendaftar serta membuat struktur kode lebih teratur dan mudah dikelola.
 
-### Inheritanse
+## Inheritanse
 
 Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child) mewarisi property dan method dari class lain (parent). Inheritance membantu mengurangi penulisan kode secara berulang (mengurangi redundancy kode). Sebuah kelas (superclass) dapat mewariskan property dan method kepada kelas-kelas turunannya (subclass). Artinya, subclass dapat menggunakan kembali property dan method dari superclass, serta dapat menambahkan property dan method baru atau mengubah perilaku yang sudah ada. Contoh:
 
@@ -94,7 +94,7 @@ Class StaffPelatihan mewarisi class Staff. Selain itu, class ini memiliki atribu
 
 Sama seperti class staffPelatihan, class Peserta juga mewarisi atribut umum dari pendaftar, dan menambahkan atribut untuk peserta yaitu GetIdPeserta, GetProgress dan lain-lain.
 
-### Abstraction
+## Abstraction
 
 Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas tanpa harus menampilkan detail dari karakteristik tersebut. Dalam abstraction menggunakan abstract class yang merukan kelas abtrak digunakan untuk menentukan karakteristik dari sebuah kelas. Abstract class tidak bisa dibuat menjadi obek secara langsung harus diwariskan. contoh:
 
@@ -102,7 +102,7 @@ Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh
 
 Class PelatihanServis ini menyederhanakan kompleksitas dengan hanya menampilkan fungsi penting, dan menyembunyikan detail cara kerja. Jadi GUI tidak perlu tahu bagaimana query insert dibuat, bagaimana koneksi database dibuka, dan bagaimana error ditangani.
 
-### Polymorphism
+## Polymorphism
 
 Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di class lain. Misalnya di kelas 
 
@@ -110,7 +110,7 @@ Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku
 
 - contoh gambar
 
-### Interface
+## Interface
 
 Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua method yang ada di dalamnya. contoh:
 
@@ -122,7 +122,7 @@ Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua metho
 
 <img width="280" height="496" alt="image" src="https://github.com/user-attachments/assets/286b687f-77ef-4783-bb22-0b66198565fe" />
 
-### 1. Source Packages
+## 1. Source Packages
 
 Bagian ini berisi seluruh kode utama program. Di dalamnya terdapat beberapa package yang memiliki fungsi berbeda namun saling berkaitan.
 
@@ -136,7 +136,7 @@ Bagian ini berisi seluruh kode utama program. Di dalamnya terdapat beberapa pack
 
 - Util Package ini berfungsi sebagai penyedia class pendukung atau helper yang membantu proses kerja aplikasi, misalnya pengaturan format, validasi input, atau fungsi tambahan lain yang digunakan di berbagai bagian program.
 
-### 2. Libraries
+## 2. Libraries
 
 <img width="372" height="164" alt="image" src="https://github.com/user-attachments/assets/6ec02779-9c15-47bd-9d88-f463039c3597" />
 
@@ -148,4 +148,80 @@ Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dap
 
 - AbsoluteLayout untuk membantu pengaturan tata letak tampilan antarmuka / GUI.
 
-## 
+# Mengimplementasikan ORM
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/799856fa-0461-4cda-9f7a-8f0baf56a504" />
+
+# Library atau Framework yang digunakan
+
+- Hibernate
+
+  Hibernate digunakan sebagai framework ORM untuk menghubungkan class Java dengan tabel pada database sehingga CRUD dapat dilakukan secara otomatis tanpa banyak SQL manual. Dengan Hibernate, data entity seperti Laporan dapat langsung dipetakan ke tabel laporan.
+
+- MYSQL & JDBC Driver
+
+  MySQL digunakan sebagai penyimpanan data aplikasi sedangkan JDBC Driver berfungsi sebagai penghubung antara Java dan MySQL agar query dapat berjalan dengan baik. Kombinasi ini memungkinkan aplikasi menyimpan data-data seperti data staff, admin, pelatihan, pendaftar, dan peserta secara langsung ke database.
+
+- Java Swing
+
+  java Swing digunakan untuk membangun tampilan antarmuka aplikasi desktop seperti form input, tabel data, dan dialog notifikasi agar user dapat berinteraksi dengan mudah.
+
+- JCalendar
+
+  sebuah library eksternal Java yang menyediakan komponen kalender interaktif untuk aplikasi desktop berbasis Java Swing. Fungsinya adalah untuk memudahkan pengguna memilih tanggal langsung dari tampilan kalender, tanpa harus mengetik manual seperti 2025-11-02.
+
+- Java Enum
+
+  Java Enum dipakai untuk data yang memiliki pilihan terbatas seperti status pelatihan sehingga input lebih konsisten dan mudah dikelola.
+
+# Cara Menggunakan Program
+
+## Bagi Pendaftar
+
+### Halaman Utama
+
+![WhatsApp Image 2025-11-02 at 19 59 43_432c4c36](https://github.com/user-attachments/assets/c266f865-26ec-4b90-8127-9f7bd4aa4e50)
+
+Halaman Utama dari program ini yaitu sebagai tempat login juga. digunakan untuk autentikasi pengguna sebelum mengakses program SIP MBER. Pengguna dapat masuk menggunakan NIK atau username dan passwprd, dan jika belum memiliki akun dapat melakukan registrasi melalui menu ‘Buat Akun’.
+
+### Membuat Akun
+
+![WhatsApp Image 2025-11-02 at 19 54 28_2134b98a](https://github.com/user-attachments/assets/469dd808-39b4-4c4d-9131-0ab837a41fd4)
+
+Halaman Buat Akun digunakan untuk proses registrasi pengguna baru pada aplikasi SIP MBER. Pengguna mengisi data pribadi seperti nik, nama, email, alamat, pekerjaan, penghasilan, nomor HP, dan password. Setelah data tervalidasi, sistem menyimpan informasi tersebut ke database agar akun pendaftar dapat melakukan login ke dalam sistem.
+
+## Role Pendaftar
+
+### Login
+
+![WhatsApp Image 2025-11-02 at 19 56 22_c5d70099](https://github.com/user-attachments/assets/4bc621eb-af51-48b3-aa5f-886cf539a48e)
+
+setelah mendaftar, pendaftar tidak bisa langsung login, kevalidan data harus diverifikasi terlebih dahulu oleh admin, setelah terverifikasi baru bisa login.
+
+## Role Peserta
+
+![WhatsApp Image 2025-11-02 at 19 58 24_b489e77b](https://github.com/user-attachments/assets/d0194ea9-2ddc-4758-b939-4adec2fd0537)
+
+Login menggunakan akun yang telah diverifikasi oleh admin
+
+### Tampilan Utama
+
+![WhatsApp Image 2025-11-02 at 20 01 38_8c133a8f](https://github.com/user-attachments/assets/1d53ec33-0c70-4773-bb7f-e606165c225e)
+
+setelah login maka akan tertampil menu utama dari peserta yaitu daftar-daftar nama pelatihan, pendaftaran pelatihan, perbarui akun, dan lihat sertifikat
+
+### Perbarui Akun
+
+![WhatsApp Image 2025-11-02 at 20 02 53_a2410149](https://github.com/user-attachments/assets/0d97866c-5c1a-40f1-ad6a-c0b00682a511)
+
+Untuk menu perbarui akun di SIP MBER, peserta memilih menu perbarui akun, lalu ubah yanng ingin diperbarui baik itu nik, nama lengkap, alamat, penghasilan, pekerjaan, nomor hp, maupun password. Setelah diubah peserta hanya perlu menekan tombol perbarui untuk memperbarui data pribadi.
+
+### Lihat Sertifikat
+
+![WhatsApp Image 2025-11-02 at 20 03 53_373a007c](https://github.com/user-attachments/assets/a710d24d-0a57-41b8-8829-3044be1f9b7e)
+
+Untuk peserta jika ingin melihat sertifikat di SIP MBER, peserta harus mengikuti suatu program pelatihan dan pelatihan itu sudah mencapai 100% Progress, maka sertifikat untuk peserta akan muncul secara otomatis.
+
+![WhatsApp Image 2025-11-02 at 20 06 04_7ddd3937](https://github.com/user-attachments/assets/5b522246-a485-4efe-9bdf-646397dad736)
+
+Informasi sertifikat di SIP MBER berupa; nama pelatihan yang diikuti peserta, nomor sertifikat, skor program, dan tanggal sertifikat terbit.
