@@ -225,3 +225,67 @@ Untuk peserta jika ingin melihat sertifikat di SIP MBER, peserta harus mengikuti
 ![WhatsApp Image 2025-11-02 at 20 06 04_7ddd3937](https://github.com/user-attachments/assets/5b522246-a485-4efe-9bdf-646397dad736)
 
 Informasi sertifikat di SIP MBER berupa; nama pelatihan yang diikuti peserta, nomor sertifikat, skor program, dan tanggal sertifikat terbit.
+
+## Role Staff
+
+![WhatsApp Image 2025-11-02 at 23 33 27_52b1a17d](https://github.com/user-attachments/assets/e42a8cfc-c4fa-40f8-87f4-8d3b1c49ae5c)
+
+login menggunakana akun staff yang terdaftar
+
+### Tampilan utama
+
+![WhatsApp Image 2025-11-02 at 23 38 05_e425e3fd](https://github.com/user-attachments/assets/519470cb-3675-4cd1-ab63-0135b3061a3c)
+
+Di halaman utama staff, staff dapat melihat daftar-daftar Pelatihan dan daftar-daftar peserta. Juga dapat melakukan penilaian kepada peserta yang melakukan pelatihan
+
+### Penilaian
+
+contih gambar
+
+penjelasan
+
+## Role Admin
+
+![WhatsApp Image 2025-11-02 at 23 16 23_88cc5c39](https://github.com/user-attachments/assets/ed667ae4-8b0d-4bd4-abd1-9be4b0ea914a)
+
+Login menggunakan akun Admin yang telah terdaftar dalam sistem
+
+### Tampilan Utama
+
+![WhatsApp Image 2025-11-02 at 23 36 37_4bfea997](https://github.com/user-attachments/assets/e975b52a-9286-453c-a062-d4b4e62be610)
+
+di halaman utama Admin, Admin dapat melihat Daftar Staff, Daftar Peserta, Daftar Pelatihan dan Daftar Pendaftar. Admin juga dapat melakukan Tambah, perbarui, dan menghapus data dari suatu kategori. Dan dapat melakukan verifikasi ke akun peserta.
+
+### Menu Daftar Pelatihan
+
+gambar
+
+Di halaman daftar pelatihan, Admin dapat menambahkan, memperbarui, dan menghapus data pelatihan.
+
+### Menambahkan Pelatihan
+
+![WhatsApp Image 2025-11-02 at 23 19 50_6081c81e](https://github.com/user-attachments/assets/65988fcf-aef8-480d-9ee7-30bcb2e713ca)
+
+Ketika Admin ingin menambahkan pelatihan admin perlu memasukkan ID pelatihan, nama pelatihan, deskripsi pelatihan (opsional), tanggal mulai, tanggal selesai, dan status pelatihan. Ketika Admin menginput tanggal pelatihan, maka tanggal dimulainya pelatihan tidak bisa melangkahi tanggal selesai pelatihan.
+
+![WhatsApp Image 2025-11-02 at 23 19 24_8bada7a8](https://github.com/user-attachments/assets/43a2c6b9-af62-498a-b57c-c6b71893a55c)
+
+### Memperbarui Pelatihan
+
+Ketika Admin ingin melakukan pembaruan data pelatihan, Admin perlu menekan salah satu data pelatihan yang ada di tabel, kemudian data tersebut otomatis muncul di atas tabel, admin hanya perlu mengubah bagian yang ingin diubah. Misalnya, ID pelatihan, nama pelatihan, deskripsi pelatihan, tanggal mulai, tanggal selesai, ataupun status pelatihan.
+
+![WhatsApp Image 2025-11-02 at 23 17 33_bfc7a5fd](https://github.com/user-attachments/assets/2ea45786-9aa3-4fae-8e94-8c0ec1f942d5)
+
+### Menghapus Pelatihan
+
+Ketika Admin ingin menghapus suatu data di pelatihan, Admin hanya perlu menekan salah satu data di tabel pelatihan, kemudian admin menekan tombol hapus yang ada di kanan atas tabel.
+
+![WhatsApp Image 2025-11-02 at 23 18 01_dd020435](https://github.com/user-attachments/assets/0ad4a26f-c408-42ba-8c1d-705ac0487ada)
+
+### Menu Daftar Staff
+
+Contoh Gambar
+
+Di halaman menu daftar staff, admin dapat melihat daftar-daftar staff. Admin juga dapat menambahkan, memperbarui, dan menghapus suatu data staff.
+
+### Menambahkan Staff
