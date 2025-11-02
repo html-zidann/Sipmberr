@@ -22,23 +22,23 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 
 1. Flowchart Login
 
-<img width="2444" height="7128" alt="image" src="https://github.com/user-attachments/assets/ca8561b8-5966-4a29-9447-ff28acd0e110" />
+![WhatsApp Image 2025-11-02 at 00 05 56_6e9281f6](https://github.com/user-attachments/assets/874a78a6-02b6-4d5f-b583-307995be1510)
 
 2. Flowchart Buat-Akun
 
-<img width="11936" height="1812" alt="image" src="https://github.com/user-attachments/assets/099f96bf-8be6-4e56-8cc3-075f04af0ff4" />
+<img width="2964" height="433" alt="image" src="https://github.com/user-attachments/assets/1cf74ea5-ea3b-47e8-9a72-86021f0634b6" />
 
 3. Flowchart menu utama pendaftar
 
-   <img width="4252" height="3608" alt="image" src="https://github.com/user-attachments/assets/401314c1-d0de-4095-bfd7-264172f30796" />
+<img width="1043" height="882" alt="image" src="https://github.com/user-attachments/assets/1535921a-a191-48b8-8695-1e6c83d4173e" />
 
 4. Flowchart menu utama staff
 
-<img width="3164" height="2088" alt="image" src="https://github.com/user-attachments/assets/75316bad-6624-4ce7-9e99-b7d9d06123c9" />
+<img width="771" height="502" alt="image" src="https://github.com/user-attachments/assets/b07ff9cd-b078-45a9-af01-496b874f3386" />
 
-6. Flowchart menu utama admin
+5. Flowchart menu utama admin
 
-
+<img width="3635" height="2531" alt="image" src="https://github.com/user-attachments/assets/5f2a1019-7ace-45f3-bf12-dab5a7082910" />
 
 ### Use Case DIagram
 
@@ -98,4 +98,16 @@ Sama seperti class staffPelatihan, class Peserta juga mewarisi atribut umum dari
 
 Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas tanpa harus menampilkan detail dari karakteristik tersebut. Dalam abstraction menggunakan abstract class yang merukan kelas abtrak digunakan untuk menentukan karakteristik dari sebuah kelas. Abstract class tidak bisa dibuat menjadi obek secara langsung harus diwariskan. contoh:
 
+<img width="539" height="421" alt="image" src="https://github.com/user-attachments/assets/e7969771-b5c9-474d-99c9-b122653dbd22" />
 
+Class PelatihanServis ini menyederhanakan kompleksitas dengan hanya menampilkan fungsi penting, dan menyembunyikan detail cara kerja. Jadi GUI tidak perlu tahu bagaimana query insert dibuat, bagaimana koneksi database dibuka, dan bagaimana error ditangani.
+
+### Polymorphism
+
+Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di class lain. Misalnya di kelas 
+
+- contoh gambar
+
+- contoh gambar
+
+### 
