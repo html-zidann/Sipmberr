@@ -114,9 +114,11 @@ Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku
 
 Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua method yang ada di dalamnya. contoh:
 
-- Contoh Gambar
+<img width="278" height="62" alt="image" src="https://github.com/user-attachments/assets/2bf182f6-a60a-47a5-9fb6-8323f147ed5a" />
 
-- contoh ganbar
+<img width="604" height="83" alt="image" src="https://github.com/user-attachments/assets/08a27fab-33e0-4e43-b4cf-a0e3c4389c45" />
+
+<img width="717" height="98" alt="image" src="https://github.com/user-attachments/assets/57d0d34e-3323-4531-8e20-34535d996d53" />
 
 ## Penjelasan Struktur Package
 
