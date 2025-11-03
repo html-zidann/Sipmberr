@@ -104,11 +104,11 @@ Class PelatihanServis ini menyederhanakan kompleksitas dengan hanya menampilkan 
 
 ## Polymorphism
 
-Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di class lain. Misalnya di kelas 
+Polymorphism, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di class lain. Misalnya di kelas peserta.java dan pelatihan.java
 
-- contoh gambar
+<img width="782" height="358" alt="image" src="https://github.com/user-attachments/assets/2b9449ad-3c0f-493e-b98e-6618b32a0524" />
 
-- contoh gambar
+<img width="478" height="98" alt="image" src="https://github.com/user-attachments/assets/dd14c7d5-1a48-4b18-acd2-aff5cd600dc1" />
 
 ## Interface
 
@@ -127,6 +127,8 @@ Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua metho
 Bagian ini berisi seluruh kode utama program. Di dalamnya terdapat beberapa package yang memiliki fungsi berbeda namun saling berkaitan.
 
 - GUI Package ini berisi komponen tampilan antarmuka yang digunakan oleh pengguna. Seluruh halaman seperti menu utama, form login, registrasi, menu admin, dan menu user terdapat di dalam bagian ini.
+
+- GUI.ImageIcon package ini berisi gambar-gambar berbentuk file png untuk tampilan _front end_
 
 - META-INF Package ini berisi file xml, yang akan membantu agar HibernateUtil dapat berjalan.
 
