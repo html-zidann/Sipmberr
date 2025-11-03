@@ -258,7 +258,7 @@ di halaman utama Admin, Admin dapat melihat Daftar Staff, Daftar Peserta, Daftar
 
 ### Menu Daftar Pelatihan
 
-gambar
+![WhatsApp Image 2025-11-03 at 06 18 41_7335f610](https://github.com/user-attachments/assets/7b9344ec-bf5a-483f-9b30-47da177852ae)
 
 Di halaman daftar pelatihan, Admin dapat menambahkan, memperbarui, dan menghapus data pelatihan.
 
@@ -284,7 +284,7 @@ Ketika Admin ingin menghapus suatu data di pelatihan, Admin hanya perlu menekan 
 
 ### Menu Daftar Staff
 
-Contoh Gambar
+![WhatsApp Image 2025-11-03 at 06 18 54_6e5bc6de](https://github.com/user-attachments/assets/55b7b499-f146-4967-af0a-a024ed215aa8)
 
 Di halaman menu daftar staff, admin dapat melihat daftar-daftar staff. Admin juga dapat menambahkan, memperbarui, dan menghapus suatu data staff.
 
@@ -308,7 +308,7 @@ Ketika Admin ingin menghapus data staff, admin hanya perlu menekan salah satu da
 
 ### Menu Daftar Peserta
 
-Contoh Gambar
+![WhatsApp Image 2025-11-03 at 06 19 08_9f20d00a](https://github.com/user-attachments/assets/65c7332a-c5e7-40fb-83a2-4f66192a8a6e)
 
 Di halaman menu daftar peserta, admin dapat melihat daftar-daftar peserta. Admin juga dapat menambahkan, memperbarui, dan menghapus suatu data peserta.
 
@@ -334,7 +334,7 @@ Ketika Admin ingin menghapus data peserta, admin hanya perlu menekan salah satu 
 
 Untuk menu daftar pendaftar, admin dapat melakukan verifikasi kepada pendaftar yang statusnya masih menunggu.
 
-Contoh Gambar
+![WhatsApp Image 2025-11-03 at 06 21 04_7e010175](https://github.com/user-attachments/assets/ecde98b4-3d8d-45be-9f7a-8c7fb592c454) 
 
 ### Menerima/Menolak Verifikasi Pendaftar
 
