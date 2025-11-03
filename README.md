@@ -240,9 +240,9 @@ Di halaman utama staff, staff dapat melihat daftar-daftar Pelatihan dan daftar-d
 
 ### Penilaian
 
-contih gambar
+![WhatsApp Image 2025-11-03 at 09 09 52_e2681c48](https://github.com/user-attachments/assets/a25507fe-ad09-4b9b-a86f-1337dca1d672)
 
-penjelasan
+di menu penilaian staff, staff dapat memberikan penilaian untuk sertifikat pada peserta pelatihan. Dengan menekan salah satu data peserta di tabel dan input nilai diatas tabel, kemudian tekan tombol "Nilai". Maka, nilai otomatis masuk ke sertifikat peserta.
 
 ## Role Admin
 
