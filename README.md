@@ -38,7 +38,7 @@ _Platform_ ini dirancang untuk menghadirkan perubahan sosial yang positif melalu
 
 5. Flowchart menu utama admin
 
-<img width="3635" height="2531" alt="image" src="https://github.com/user-attachments/assets/5f2a1019-7ace-45f3-bf12-dab5a7082910" />
+<img width="4907" height="2531" alt="image" src="https://github.com/user-attachments/assets/93627125-3dfb-408f-ba88-8558ff75d819" />
 
 ### Use Case DIagram
 
