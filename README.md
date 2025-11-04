@@ -254,12 +254,6 @@ di menu penilaian staff, staff dapat memberikan penilaian untuk sertifikat pada 
 
 Login menggunakan akun Admin yang telah terdaftar dalam sistem
 
-### Tampilan Utama
-
-![WhatsApp Image 2025-11-02 at 23 36 37_4bfea997](https://github.com/user-attachments/assets/e975b52a-9286-453c-a062-d4b4e62be610)
-
-di halaman utama Admin, Admin dapat melihat Daftar Staff, Daftar Peserta, Daftar Pelatihan dan Daftar Pendaftar. Admin juga dapat melakukan Tambah, perbarui, dan menghapus data dari suatu kategori. Dan dapat melakukan verifikasi ke akun peserta.
-
 ### Menu Daftar Pelatihan
 
 ![WhatsApp Image 2025-11-03 at 06 18 41_7335f610](https://github.com/user-attachments/assets/7b9344ec-bf5a-483f-9b30-47da177852ae)
