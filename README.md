@@ -3,7 +3,7 @@
 
 
 ## Anggota Kelompok
-- Muhammad Sadikin Samir 2409116031
+- Muhammad Sadikin Samir 2409116037
 - Muhammad Fachri 2409116017
 - Zidan Daffa Ramadhan 2409116056
 - Ahmad Qomarul Arifin 2409116114
